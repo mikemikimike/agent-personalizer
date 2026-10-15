@@ -6,6 +6,10 @@ Every entry names the adversarial audit round that produced it where one did. Au
 
 ## [Unreleased]
 
+### Fixed
+
+- Inside a git repo, install adds `USER.md`, `LEARNED.md`, `.agent-personalizer.json` and the ChatGPT paste files to `.git/info/exclude` in one marked block per install folder, and notes that the home files carry your profile. Uninstall removes the block (#30).
+
 ## [0.8.0] - 2026-10-06
 
 ### Added
